@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/7ceaf882af.js" crossorigin="anonymous"></script>
+    <script src="index.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <div class="topHead">
+            <div id="corpId">
+                <i class="fa-regular fa-envelope-open"></i><span>philip.sadhu@zohocorp.com</span>
+            </div>
+            <div class="naviMain">
+              <nav>
+               <ul>
+                 <li><a class="opt" href="#">HOME</a></li>
+                 <li><a class="opt" href="#second">PROJECTS</a></li>
+                 <li><a class="opt" href="#third">CONTACT</a></li>
+               </ul>
+             </nav>
+            </div>
+          </div>
+
+        <div id="first">
+            <div id="bg">
+                <img src="sadhu.png" id="img" draggable="false">
+                <div class="details">
+                    <h3>Philip Sadhu Sundar Singh I</h3>
+                    <hr>
+                    <p>I'm a backend developer with a passion for logical thinking and problem-solving.</p>
+                    <p>So far I have Java, JavaScript, SQL, HTML, CSS, and GitHub under my belt.</p>
+                    <p>I specialize in quickly learning new skills and programming languages, optimizing code, and</p>
+                    <p> implementing the Model View Controller (MVC) approach to organizing code.</p>
+                    <p>When I'm not coding, I enjoy staying active and engaging in various sports activities.</p>
+                    <p>I'm excited to continue growing as a developer and contributing to innovative projects.</p>
+                </div>
+              </div>
+        </div>
+
+        <div id="second">
+            <div class="headingBox">
+                <h3>My Projects</h3>
+            </div>
+            <hr>
+            <p>Here are some of my projects, you may like.</p>
+            <div id="projectFull">
+                <div class="project">
+                    <img class="logos" src="bascket.jpeg" onclick="bosscart()">
+                    <div class="projectName">
+                        <p>Online Shopping</p>
+                        <h4 class="language">Java</h4>
+                    </div>
+                </div>
+                <div class="project" onclick="bank()">
+                    <img class="logos" src="bank.jpg">
+                    <div class="projectName">
+                        <p>Bank Application</p>
+                        <h4 class="language">Java</h4>
+                    </div>
+                </div>
+                <div class="project" onclick="chat()">
+                    <img class="logos" src="chat.png">
+                    <div class="projectName">
+                        <p>Chat Application</p>
+                        <h4 class="language">Java</h4>
+                    </div>
+                </div>
+                <div class="project" onclick="dictionary()">
+                    <img class="logos" src="dictionary.jpg">
+                    <div class="projectName">
+                        <p>Dictionary</p>
+                        <h4 class="language">Java</h4>
+                    </div>
+                </div>
+                <div class="project" onclick="music()">
+                    <img class="logos" src="musicplayer.jpg">
+                    <div class="projectName">
+                        <p>Music Player</p>
+                        <h4 class="language">JavaScript</h4>
+                    </div>
+                </div>
+                <div class="project" onclick="checkers()">
+                    <img class="logos" src="checkers.jpg">
+                    <div class="projectName">
+                        <p>Checkers</p>
+                        <h4 class="language">JavaScript</h4>
+                    </div>
+                </div>
+                <div class="project" onclick="scratch()">
+                    <img class="logos" src="mummymaze.jpeg">
+                    <div class="projectName">
+                        <p>Mummy Maze</p>
+                        <h4 class="language">Scratch</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="third">
+            <div class="headingBox">
+                <h3>Contact</h3>
+            </div>
+            <hr>
+            <div class="details">
+                <p>Feel free to contact me on my social media.</p>
+                <div id="socialMedia">
+                    <a href="https://github.com/SadhuSundarSingh"><i class='fab fa-github'></i></a>
+                    <a href="https://www.linkedin.com/in/philip-sadhu-sundar-singh-i-77a223244/"><i class='fab fa-linkedin-in'></i></a>
+                    <a href="https://www.codewars.com/users/Sadhu%20I"><i class="fa-solid fa-terminal"></i></a>
+                </div>
+                <div class="contact">
+                    <div class="address">
+                        <div>
+                            <i class="fa-regular fa-envelope-open" id="mail"></i><span>ipssundarsingh@gmail.com</span>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i><span>Athichaperi near by Kalakad, Tirunelveli</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="mobNo" class="contact">   
+                    <div class="address">
+                        <div>
+                            <i class="fa-solid fa-phone" id="phone"></i><span>+91 9003759598</span>
+                        </div>  
+                        <div>
+                            <i class="fa-solid fa-user"></i><span>18 years of age</span>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
